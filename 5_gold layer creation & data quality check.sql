@@ -260,7 +260,7 @@ GO
 
 
 /* ============================================================================
-   GOLD LAYER – DATA QUALITY & INTEGRITY CHECKS
+   GOLD LAYER Â– DATA QUALITY & INTEGRITY CHECKS
    ----------------------------------------------------------------------------
    Script Purpose:
    This script performs critical data quality validations on the Gold layer
@@ -331,7 +331,7 @@ GROUP BY product_key
 HAVING COUNT(*) > 1;
 
 /* ============================================================
-   DATA QUALITY CHECK – FOREIGN KEY INTEGRITY
+   DATA QUALITY CHECK Â– FOREIGN KEY INTEGRITY
    ------------------------------------------------------------
    Purpose:
    - Ensure all fact records successfully link to dimensions
